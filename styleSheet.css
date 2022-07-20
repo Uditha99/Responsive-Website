@@ -1,0 +1,296 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.header{
+    height: 100vh;
+    background-image: url(images/background.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.container{
+    
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.logo{
+    padding-top: 30px;
+    width: 100px;
+}
+
+.header-text{
+    max-width: 350px;
+    margin-top: 140px;
+}
+
+h1{
+    font-size: 34px;
+}
+
+.squer{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background: palevioletred;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.common-btn{
+    padding: 18px 40px;
+    background: transparent;
+    border: 2px solid palevioletred;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+p{
+    font-size: 15px;
+    line-height: 18px;
+    color: rgb(84, 84, 84);
+}
+
+.header-text button{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.line-1{
+    width: 15px;
+    height: 15px;
+    background: palevioletred;
+    display: inline-block;
+}
+
+.line-2{
+    width: 80px;
+    height: 1px;
+    background: palevioletred;
+    display: inline-block;
+}
+
+.line-3{
+    width: 60px;
+    height: 1px;
+    background: palevioletred;
+    display: inline-block;
+}
+
+.line{
+    line-height: 5px;
+}
+
+#sideNav{
+    width: 250px;
+    height: 100%;
+    background: palevioletred;
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    transition: .5s;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 50px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+#menu-btn{
+    width: 30px;
+    height:30px;
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+}
+
+#about{
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-left-col{
+    flex-basis: 50%;
+}
+
+.about-left-col img{
+    width: 100%;
+}
+
+.about-right-col{
+    width: 50%;
+    text-align: right;
+    
+}
+.about-text{
+    margin-right: 100px;
+    max-width: 500px;
+    display: inline-block;
+}
+
+.about-text h2{
+    padding-top: 20px;
+    font-style: italic;
+}
+
+.about-text h3{
+    padding-top: 10px;
+    font-style: italic;
+}
+#features{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.feature-row{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.feature-col{
+    flex-basis: 20%;
+    text-align: center;
+}
+
+.feature-col img{
+    width: 100px;
+}
+
+.feature-col h4{
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.feature-btn{
+    margin: 80px auto 0;
+    display: flex;
+    align-items: flex-end;
+    
+    justify-content: center;
+    
+}
+
+#course{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.course-row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.cource-left-col{
+    flex-basis: 50%;
+}
+
+.cource-right-col img{
+    width: 100%;
+}
+.cource-right-col{
+    flex-basis: 50%;
+}
+
+.course-text{
+    padding-left: 50px;
+    max-width: 500px;
+}
+
+.course-text p{
+    padding-top: 10px;
+}
+
+#offer{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.offer-row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.offer-left-col{
+    flex-basis: 50%;
+
+}
+
+.offer-left-col img{
+    max-width:100%;
+}
+
+.offer-right-col{
+    flex-basis: 50%;
+    text-align: right;
+}
+
+.offer-text{
+   padding-right: 100px;
+    max-width: 500px;
+    display: inline-block;
+}
+
+.offer-btn{
+    
+    padding-top: 20px;
+    padding-right: 100px;
+}
+
+#Contact{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.contact-row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.contact-right-col{
+    flex-basis: 50%;
+}
+
+.contact-left-col{
+    flex-basis: 50%;
+    
+}
+
+.contact-right-col img{
+    max-width: 100%;
+}
+
+.form-fill{
+    padding-left: 50px
+}
+
+form{
+    max-width: 350px;
+    margin: 30px 0;
+}
+
+form input{
+    width: 100%;
+    padding: 12px 10px;
+    margin-bottom: 5px;
+    box-shadow: none;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid palevioletred;
+}
